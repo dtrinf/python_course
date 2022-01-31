@@ -2,7 +2,7 @@
 class View:
 
     def select(self, object):
-        print("Selecciona acción:------------------\n"
+        print("Selecciona acción:\n------------------\n"
               "1: Calcular Área del Cuadrado\n"
               "2: Calcular Área del Circulo\n"
               "3: Calcular Área del Triangulo\n"
