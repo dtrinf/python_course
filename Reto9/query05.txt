@@ -1,0 +1,243 @@
+{{URL}}/alpha?access_key={{API_KEY}}&codes=ES;GB;US
+
+
+[
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 46438422,
+        "latlng": [
+            40,
+            -4
+        ],
+        "demonym": "Spanish",
+        "area": 505992,
+        "gini": 34.7,
+        "timezones": [
+            "UTC",
+            "UTC+01:00"
+        ],
+        "borders": [
+            "AND",
+            "FRA",
+            "GIB",
+            "PRT",
+            "MAR"
+        ],
+        "nativeName": "España",
+        "numericCode": "724",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "es",
+                "iso639_2": "spa",
+                "name": "Spanish",
+                "nativeName": "Español"
+            }
+        ],
+        "translations": {
+            "br": "Espanha",
+            "de": "Spanien",
+            "es": "España",
+            "fa": "اسپانیا",
+            "fr": "Espagne",
+            "hr": "Španjolska",
+            "it": "Spagna",
+            "ja": "スペイン",
+            "nl": "Spanje",
+            "pt": "Espanha"
+        },
+        "flag": "https://restcountries.eu/data/esp.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union"
+            }
+        ],
+        "cioc": "ESP"
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "topLevelDomain": [
+            ".uk"
+        ],
+        "alpha2Code": "GB",
+        "alpha3Code": "GBR",
+        "callingCodes": [
+            "44"
+        ],
+        "capital": "London",
+        "altSpellings": [
+            "GB",
+            "UK",
+            "Great Britain"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "population": 65110000,
+        "latlng": [
+            54,
+            -2
+        ],
+        "demonym": "British",
+        "area": 242900,
+        "gini": 34,
+        "timezones": [
+            "UTC-08:00",
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-02:00",
+            "UTC",
+            "UTC+01:00",
+            "UTC+02:00",
+            "UTC+06:00"
+        ],
+        "borders": [
+            "IRL"
+        ],
+        "nativeName": "United Kingdom",
+        "numericCode": "826",
+        "currencies": [
+            {
+                "code": "GBP",
+                "name": "British pound",
+                "symbol": "£"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "en",
+                "iso639_2": "eng",
+                "name": "English",
+                "nativeName": "English"
+            }
+        ],
+        "translations": {
+            "br": "Reino Unido",
+            "de": "Vereinigtes Königreich",
+            "es": "Reino Unido",
+            "fa": "بریتانیای کبیر و ایرلند شمالی",
+            "fr": "Royaume-Uni",
+            "hr": "Ujedinjeno Kraljevstvo",
+            "it": "Regno Unito",
+            "ja": "イギリス",
+            "nl": "Verenigd Koninkrijk",
+            "pt": "Reino Unido"
+        },
+        "flag": "https://restcountries.eu/data/gbr.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union"
+            }
+        ],
+        "cioc": "GBR"
+    },
+    {
+        "name": "United States of America",
+        "topLevelDomain": [
+            ".us"
+        ],
+        "alpha2Code": "US",
+        "alpha3Code": "USA",
+        "callingCodes": [
+            "1"
+        ],
+        "capital": "Washington, D.C.",
+        "altSpellings": [
+            "US",
+            "USA",
+            "United States of America"
+        ],
+        "region": "Americas",
+        "subregion": "Northern America",
+        "population": 323947000,
+        "latlng": [
+            38,
+            -97
+        ],
+        "demonym": "American",
+        "area": 9629091,
+        "gini": 48,
+        "timezones": [
+            "UTC-12:00",
+            "UTC-11:00",
+            "UTC-10:00",
+            "UTC-09:00",
+            "UTC-08:00",
+            "UTC-07:00",
+            "UTC-06:00",
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC+10:00",
+            "UTC+12:00"
+        ],
+        "borders": [
+            "CAN",
+            "MEX"
+        ],
+        "nativeName": "United States",
+        "numericCode": "840",
+        "currencies": [
+            {
+                "code": "USD",
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "en",
+                "iso639_2": "eng",
+                "name": "English",
+                "nativeName": "English"
+            }
+        ],
+        "translations": {
+            "br": "Estados Unidos",
+            "de": "Vereinigte Staaten von Amerika",
+            "es": "Estados Unidos",
+            "fa": "ایالات متحده آمریکا",
+            "fr": "États-Unis",
+            "hr": "Sjedinjene Američke Države",
+            "it": "Stati Uniti D'America",
+            "ja": "アメリカ合衆国",
+            "nl": "Verenigde Staten",
+            "pt": "Estados Unidos"
+        },
+        "flag": "https://restcountries.eu/data/usa.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "NAFTA",
+                "name": "North American Free Trade Agreement",
+                "otherNames": [
+                    "Tratado de Libre Comercio de América del Norte",
+                    "Accord de Libre-échange Nord-Américain"
+                ]
+            }
+        ],
+        "cioc": "USA"
+    }
+]

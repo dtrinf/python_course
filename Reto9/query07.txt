@@ -1,0 +1,5 @@
+{{URL}}/language/ita?access_key={{API_KEY}}
+
+https://countrylayer.com/documentation/#langend
+
+Esta consulta no funciona correctamente

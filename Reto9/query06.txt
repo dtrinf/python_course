@@ -1,0 +1,665 @@
+{{URL}}/currency/EUR?access_key={{API_KEY}}
+
+
+[
+    {
+        "name": "Åland Islands",
+        "topLevelDomain": [
+            ".ax"
+        ],
+        "alpha2Code": "AX",
+        "alpha3Code": "ALA",
+        "callingCodes": [
+            "358"
+        ],
+        "capital": "Mariehamn",
+        "altSpellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Andorra",
+        "topLevelDomain": [
+            ".ad"
+        ],
+        "alpha2Code": "AD",
+        "alpha3Code": "AND",
+        "callingCodes": [
+            "376"
+        ],
+        "capital": "Andorra la Vella",
+        "altSpellings": [
+            "AD",
+            "Principality of Andorra",
+            "Principat d'Andorra"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Austria",
+        "topLevelDomain": [
+            ".at"
+        ],
+        "alpha2Code": "AT",
+        "alpha3Code": "AUT",
+        "callingCodes": [
+            "43"
+        ],
+        "capital": "Vienna",
+        "altSpellings": [
+            "AT",
+            "Österreich",
+            "Osterreich",
+            "Oesterreich"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Belgium",
+        "topLevelDomain": [
+            ".be"
+        ],
+        "alpha2Code": "BE",
+        "alpha3Code": "BEL",
+        "callingCodes": [
+            "32"
+        ],
+        "capital": "Brussels",
+        "altSpellings": [
+            "BE",
+            "België",
+            "Belgie",
+            "Belgien",
+            "Belgique",
+            "Kingdom of Belgium",
+            "Koninkrijk België",
+            "Royaume de Belgique",
+            "Königreich Belgien"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Cyprus",
+        "topLevelDomain": [
+            ".cy"
+        ],
+        "alpha2Code": "CY",
+        "alpha3Code": "CYP",
+        "callingCodes": [
+            "357"
+        ],
+        "capital": "Nicosia",
+        "altSpellings": [
+            "CY",
+            "Kýpros",
+            "Kıbrıs",
+            "Republic of Cyprus",
+            "Κυπριακή Δημοκρατία",
+            "Kıbrıs Cumhuriyeti"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Estonia",
+        "topLevelDomain": [
+            ".ee"
+        ],
+        "alpha2Code": "EE",
+        "alpha3Code": "EST",
+        "callingCodes": [
+            "372"
+        ],
+        "capital": "Tallinn",
+        "altSpellings": [
+            "EE",
+            "Eesti",
+            "Republic of Estonia",
+            "Eesti Vabariik"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Finland",
+        "topLevelDomain": [
+            ".fi"
+        ],
+        "alpha2Code": "FI",
+        "alpha3Code": "FIN",
+        "callingCodes": [
+            "358"
+        ],
+        "capital": "Helsinki",
+        "altSpellings": [
+            "FI",
+            "Suomi",
+            "Republic of Finland",
+            "Suomen tasavalta",
+            "Republiken Finland"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "France",
+        "topLevelDomain": [
+            ".fr"
+        ],
+        "alpha2Code": "FR",
+        "alpha3Code": "FRA",
+        "callingCodes": [
+            "33"
+        ],
+        "capital": "Paris",
+        "altSpellings": [
+            "FR",
+            "French Republic",
+            "République française"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "French Guiana",
+        "topLevelDomain": [
+            ".gf"
+        ],
+        "alpha2Code": "GF",
+        "alpha3Code": "GUF",
+        "callingCodes": [
+            "594"
+        ],
+        "capital": "Cayenne",
+        "altSpellings": [
+            "GF",
+            "Guiana",
+            "Guyane"
+        ],
+        "region": "Americas"
+    },
+    {
+        "name": "French Southern Territories",
+        "topLevelDomain": [
+            ".tf"
+        ],
+        "alpha2Code": "TF",
+        "alpha3Code": "ATF",
+        "callingCodes": [
+            "262"
+        ],
+        "capital": "Port-aux-Français",
+        "altSpellings": [
+            "TF"
+        ],
+        "region": "Africa"
+    },
+    {
+        "name": "Germany",
+        "topLevelDomain": [
+            ".de"
+        ],
+        "alpha2Code": "DE",
+        "alpha3Code": "DEU",
+        "callingCodes": [
+            "49"
+        ],
+        "capital": "Berlin",
+        "altSpellings": [
+            "DE",
+            "Federal Republic of Germany",
+            "Bundesrepublik Deutschland"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Greece",
+        "topLevelDomain": [
+            ".gr"
+        ],
+        "alpha2Code": "GR",
+        "alpha3Code": "GRC",
+        "callingCodes": [
+            "30"
+        ],
+        "capital": "Athens",
+        "altSpellings": [
+            "GR",
+            "Elláda",
+            "Hellenic Republic",
+            "Ελληνική Δημοκρατία"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Guadeloupe",
+        "topLevelDomain": [
+            ".gp"
+        ],
+        "alpha2Code": "GP",
+        "alpha3Code": "GLP",
+        "callingCodes": [
+            "590"
+        ],
+        "capital": "Basse-Terre",
+        "altSpellings": [
+            "GP",
+            "Gwadloup"
+        ],
+        "region": "Americas"
+    },
+    {
+        "name": "Holy See",
+        "topLevelDomain": [
+            ".va"
+        ],
+        "alpha2Code": "VA",
+        "alpha3Code": "VAT",
+        "callingCodes": [
+            "379"
+        ],
+        "capital": "Rome",
+        "altSpellings": [
+            "Sancta Sedes",
+            "Vatican",
+            "The Vatican"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Ireland",
+        "topLevelDomain": [
+            ".ie"
+        ],
+        "alpha2Code": "IE",
+        "alpha3Code": "IRL",
+        "callingCodes": [
+            "353"
+        ],
+        "capital": "Dublin",
+        "altSpellings": [
+            "IE",
+            "Éire",
+            "Republic of Ireland",
+            "Poblacht na hÉireann"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Italy",
+        "topLevelDomain": [
+            ".it"
+        ],
+        "alpha2Code": "IT",
+        "alpha3Code": "ITA",
+        "callingCodes": [
+            "39"
+        ],
+        "capital": "Rome",
+        "altSpellings": [
+            "IT",
+            "Italian Republic",
+            "Repubblica italiana"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Latvia",
+        "topLevelDomain": [
+            ".lv"
+        ],
+        "alpha2Code": "LV",
+        "alpha3Code": "LVA",
+        "callingCodes": [
+            "371"
+        ],
+        "capital": "Riga",
+        "altSpellings": [
+            "LV",
+            "Republic of Latvia",
+            "Latvijas Republika"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Lithuania",
+        "topLevelDomain": [
+            ".lt"
+        ],
+        "alpha2Code": "LT",
+        "alpha3Code": "LTU",
+        "callingCodes": [
+            "370"
+        ],
+        "capital": "Vilnius",
+        "altSpellings": [
+            "LT",
+            "Republic of Lithuania",
+            "Lietuvos Respublika"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Luxembourg",
+        "topLevelDomain": [
+            ".lu"
+        ],
+        "alpha2Code": "LU",
+        "alpha3Code": "LUX",
+        "callingCodes": [
+            "352"
+        ],
+        "capital": "Luxembourg",
+        "altSpellings": [
+            "LU",
+            "Grand Duchy of Luxembourg",
+            "Grand-Duché de Luxembourg",
+            "Großherzogtum Luxemburg",
+            "Groussherzogtum Lëtzebuerg"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Malta",
+        "topLevelDomain": [
+            ".mt"
+        ],
+        "alpha2Code": "MT",
+        "alpha3Code": "MLT",
+        "callingCodes": [
+            "356"
+        ],
+        "capital": "Valletta",
+        "altSpellings": [
+            "MT",
+            "Republic of Malta",
+            "Repubblika ta' Malta"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Martinique",
+        "topLevelDomain": [
+            ".mq"
+        ],
+        "alpha2Code": "MQ",
+        "alpha3Code": "MTQ",
+        "callingCodes": [
+            "596"
+        ],
+        "capital": "Fort-de-France",
+        "altSpellings": [
+            "MQ"
+        ],
+        "region": "Americas"
+    },
+    {
+        "name": "Mayotte",
+        "topLevelDomain": [
+            ".yt"
+        ],
+        "alpha2Code": "YT",
+        "alpha3Code": "MYT",
+        "callingCodes": [
+            "262"
+        ],
+        "capital": "Mamoudzou",
+        "altSpellings": [
+            "YT",
+            "Department of Mayotte",
+            "Département de Mayotte"
+        ],
+        "region": "Africa"
+    },
+    {
+        "name": "Monaco",
+        "topLevelDomain": [
+            ".mc"
+        ],
+        "alpha2Code": "MC",
+        "alpha3Code": "MCO",
+        "callingCodes": [
+            "377"
+        ],
+        "capital": "Monaco",
+        "altSpellings": [
+            "MC",
+            "Principality of Monaco",
+            "Principauté de Monaco"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Montenegro",
+        "topLevelDomain": [
+            ".me"
+        ],
+        "alpha2Code": "ME",
+        "alpha3Code": "MNE",
+        "callingCodes": [
+            "382"
+        ],
+        "capital": "Podgorica",
+        "altSpellings": [
+            "ME",
+            "Crna Gora"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Netherlands",
+        "topLevelDomain": [
+            ".nl"
+        ],
+        "alpha2Code": "NL",
+        "alpha3Code": "NLD",
+        "callingCodes": [
+            "31"
+        ],
+        "capital": "Amsterdam",
+        "altSpellings": [
+            "NL",
+            "Holland",
+            "Nederland"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Portugal",
+        "topLevelDomain": [
+            ".pt"
+        ],
+        "alpha2Code": "PT",
+        "alpha3Code": "PRT",
+        "callingCodes": [
+            "351"
+        ],
+        "capital": "Lisbon",
+        "altSpellings": [
+            "PT",
+            "Portuguesa",
+            "Portuguese Republic",
+            "República Portuguesa"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Republic of Kosovo",
+        "topLevelDomain": [
+            ""
+        ],
+        "alpha2Code": "XK",
+        "alpha3Code": "KOS",
+        "callingCodes": [
+            "383"
+        ],
+        "capital": "Pristina",
+        "altSpellings": [
+            "XK",
+            "Република Косово"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Réunion",
+        "topLevelDomain": [
+            ".re"
+        ],
+        "alpha2Code": "RE",
+        "alpha3Code": "REU",
+        "callingCodes": [
+            "262"
+        ],
+        "capital": "Saint-Denis",
+        "altSpellings": [
+            "RE",
+            "Reunion"
+        ],
+        "region": "Africa"
+    },
+    {
+        "name": "Saint Barthélemy",
+        "topLevelDomain": [
+            ".bl"
+        ],
+        "alpha2Code": "BL",
+        "alpha3Code": "BLM",
+        "callingCodes": [
+            "590"
+        ],
+        "capital": "Gustavia",
+        "altSpellings": [
+            "BL",
+            "St. Barthelemy",
+            "Collectivity of Saint Barthélemy",
+            "Collectivité de Saint-Barthélemy"
+        ],
+        "region": "Americas"
+    },
+    {
+        "name": "Saint Martin (French part)",
+        "topLevelDomain": [
+            ".mf",
+            ".fr",
+            ".gp"
+        ],
+        "alpha2Code": "MF",
+        "alpha3Code": "MAF",
+        "callingCodes": [
+            "590"
+        ],
+        "capital": "Marigot",
+        "altSpellings": [
+            "MF",
+            "Collectivity of Saint Martin",
+            "Collectivité de Saint-Martin"
+        ],
+        "region": "Americas"
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "topLevelDomain": [
+            ".pm"
+        ],
+        "alpha2Code": "PM",
+        "alpha3Code": "SPM",
+        "callingCodes": [
+            "508"
+        ],
+        "capital": "Saint-Pierre",
+        "altSpellings": [
+            "PM",
+            "Collectivité territoriale de Saint-Pierre-et-Miquelon"
+        ],
+        "region": "Americas"
+    },
+    {
+        "name": "San Marino",
+        "topLevelDomain": [
+            ".sm"
+        ],
+        "alpha2Code": "SM",
+        "alpha3Code": "SMR",
+        "callingCodes": [
+            "378"
+        ],
+        "capital": "City of San Marino",
+        "altSpellings": [
+            "SM",
+            "Republic of San Marino",
+            "Repubblica di San Marino"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Slovakia",
+        "topLevelDomain": [
+            ".sk"
+        ],
+        "alpha2Code": "SK",
+        "alpha3Code": "SVK",
+        "callingCodes": [
+            "421"
+        ],
+        "capital": "Bratislava",
+        "altSpellings": [
+            "SK",
+            "Slovak Republic",
+            "Slovenská republika"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Slovenia",
+        "topLevelDomain": [
+            ".si"
+        ],
+        "alpha2Code": "SI",
+        "alpha3Code": "SVN",
+        "callingCodes": [
+            "386"
+        ],
+        "capital": "Ljubljana",
+        "altSpellings": [
+            "SI",
+            "Republic of Slovenia",
+            "Republika Slovenija"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+        "region": "Europe"
+    },
+    {
+        "name": "Zimbabwe",
+        "topLevelDomain": [
+            ".zw"
+        ],
+        "alpha2Code": "ZW",
+        "alpha3Code": "ZWE",
+        "callingCodes": [
+            "263"
+        ],
+        "capital": "Harare",
+        "altSpellings": [
+            "ZW",
+            "Republic of Zimbabwe"
+        ],
+        "region": "Africa"
+    }
+]

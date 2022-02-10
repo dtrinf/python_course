@@ -1,0 +1,21 @@
+{{URL}}/alpha/ES?access_key={{API_KEY}}
+
+
+{
+    "name": "Spain",
+    "topLevelDomain": [
+        ".es"
+    ],
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "callingCodes": [
+        "34"
+    ],
+    "capital": "Madrid",
+    "altSpellings": [
+        "ES",
+        "Kingdom of Spain",
+        "Reino de España"
+    ],
+    "region": "Europe"
+}
