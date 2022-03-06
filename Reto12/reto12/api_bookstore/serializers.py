@@ -25,16 +25,10 @@ class api_author_serializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = api_author
-        ## We can define the fields used into the serializer
-        # fields = ('id','name', 'created_date', 'added_by_id')
         ## All fields can be defined in an easy way
         fields = '__all__'
 
 class api_book_serializer(serializers.HyperlinkedModelSerializer):
-    ## We oberride the fields, they will show only the fields defined into the intermediate serializer
-    # added_by_id = user_serializer()
-    # author_id = api_author_name_serializer()
-
     class Meta:
         model = api_book
         # fields = ('id','title', 'description', 'created_date', 'added_by_id', 'author_id')
