@@ -1,6 +1,6 @@
 django
-djangorestframework
-psycopg2-binary
-django-rest-auth
-django-allauth
+djangorestframework # Package to generate API Rest in Django
+psycopg2-binary # Package to use Postgres as a backend
+dj-rest-auth # Package for log in, log out, and password reset API endpoints
+django-allauth # Package for user registration
 djangorestframework-simplejwt

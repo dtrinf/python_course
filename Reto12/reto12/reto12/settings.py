@@ -42,19 +42,41 @@ INSTALLED_APPS = [
     # # Rest framework included in the project
     'rest_framework',
     ### Reto12
-    # # Packages used to authenticate users and secure it
-    # 'rest_framework.authtoken',
-    # 'rest_auth',
+    # Packages used to authenticate users and secure it
+    'rest_framework.authtoken',
+    # Package for log in, log out, and password reset API endpoints
+    'dj_rest_auth',
     # # django-allauth package to enable a standard registration process
-    # 'django.contrib.sites',
-    # 'allauth',
-    # 'allauth.account',
-    # 'rest_auth.registration',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'dj_rest_auth.registration',
+    # JWT token
+    'rest_framework_simplejwt',
 ]
 
-# # Variables used to "send" authentication email at the console
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# SITE_ID = 1
+# Variables used to "send" authentication email at the console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+SITE_ID = 1
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+        'dj_rest_auth.jwt_auth.JWTCookieAuthentication', # Enable JWT
+        # 'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+}
+
+# JWT Configurations
+REST_USE_JWT = True
+JWT_AUTH_COOKIE = 'api_bookstore_auth'
+JWT_AUTH_REFRESH_COOKIE = 'api_bookstore_auth-refresh_token'
+###
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

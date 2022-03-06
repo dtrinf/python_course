@@ -3,7 +3,6 @@
 from django.urls import include, path
 from rest_framework import routers
 from . import views # Views imported to redirect the URL entrypoints
-# import rest_auth
 
 
 # URL entrypoints creation with their redirections
@@ -16,9 +15,8 @@ router.register(r'user-detail',views.user_viewset) #This will redirect /user-det
 urlpatterns = [
     path('', include(router.urls)), # Entrypoints managed with router created previously
     path('api-auth/',include('rest_framework.urls', namespace='rest_framework')), # rest-framework entrypoint
-    # URL's for rest_auth package
-    # path(r'^rest-auth/', include('rest_auth.urls')),
-    # allauth URL's
-    # path('rest-auth/registration/', include('rest_auth.registration.urls'))
-    
+    # URL's for dj_rest_auth package Rest Authentication
+    path('api/v1/rest-auth/', include('dj_rest_auth.urls')),
+    # URL's for django-allauth package Users registration
+    path('api/v1/rest-auth/registration/', include('dj_rest_auth.registration.urls')),    
 ]

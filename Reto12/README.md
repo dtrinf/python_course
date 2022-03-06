@@ -127,26 +127,39 @@ vi ./reto12/settings.py
 
     INSTALLED_APPS = [
         ...
+        ### Reto12
         # Packages used to authenticate users and secure it
         'rest_framework.authtoken',
-        'rest_auth',
+        # Package for log in, log out, and password reset API endpoints
+        'dj_rest_auth',
+        # # django-allauth package to enable a standard registration process
         'django.contrib.sites',
         'allauth',
         'allauth.account',
-        'rest_auth.registration',
+        'dj_rest_auth.registration',
     ]
 
 
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     SITE_ID = 1
 ```
-# Add URL's for RestAuth package
+# Add URL's for RestAuth package to allow Rest Authentication
 
 ```
 vi ./api_bookstore/urls.py
+
+urlpatterns = [
+    ...
+    # URL's for dj_rest_auth package
+    path('api/v1/rest-auth/', include('dj_rest_auth.urls')), #
+]
+```
+
 
 
 
 https://nextwebb.hashnode.dev/setup-social-authentication-in-django-rest-framework
 
 https://github.com/iMerica/dj-rest-auth/blob/master/docs/installation.rst
+
+https://kaurlearning.com/wp-content/uploads/2021/03/Django-for-APIs.pdf
