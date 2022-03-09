@@ -1,4 +1,6 @@
+# Reto 12
 
+Primero arrancamos Postgres en un container de Docker
 
 ```
 docker run -d --rm \
@@ -57,6 +59,9 @@ python reto12/manage.py runserver
 http://127.0.0.1:8000/
 
 http://127.0.0.1:8000/api/v1/rest-auth/registration
+
 http://127.0.0.1:8000/api/v1/rest-auth/login
+
 http://127.0.0.1:8000/api/v1/rest-auth/logout
+
 http://127.0.0.1:8000/books/
