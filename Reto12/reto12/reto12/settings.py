@@ -115,7 +115,7 @@ DATABASES = {
     # Postgres database configuration instead SQLite
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'reto11',
+        'NAME': 'reto12',
         'USER': 'djangouser',
         'PASSWORD': 'djangopass',
         'HOST': 'localhost',
