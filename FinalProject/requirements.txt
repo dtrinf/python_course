@@ -1,4 +1,5 @@
 django
+django-utils
 djangorestframework # Package to generate API Rest in Django
 psycopg2-binary # Package to use Postgres as a backend
 dj-rest-auth # Package for log in, log out, and password reset API endpoints
