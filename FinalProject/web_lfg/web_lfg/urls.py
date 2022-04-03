@@ -19,5 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Inclusion URL file from the new app to manage entrypoints from there.
-    # path('',include('web_lfg.urls'))
+    path('',include('api.urls'))
 ]

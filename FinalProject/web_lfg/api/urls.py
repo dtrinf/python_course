@@ -1,4 +1,4 @@
-# New URL File to manage api_bookstore entrypoints
+# New URL File to manage api entrypoints
 
 from django.urls import include, path
 from rest_framework import routers
@@ -6,7 +6,7 @@ from . import views # Views imported to redirect the URL entrypoints
 
 # URL entrypoints creation with their redirections
 router = routers.DefaultRouter()
-router.register(r'player-detail',views.player_viewset) #This will redirect /user-detail path to selected view
+router.register(r'user-detail',views.CustomUser_viewset) #This will redirect /user-detail path to selected view
 
 urlpatterns = [
     path('', include(router.urls)), # Entrypoints managed with router created previously
