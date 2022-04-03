@@ -1,4 +1,4 @@
-"""final_project URL Configuration
+"""web_lfg URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -19,5 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Inclusion URL file from the new app to manage entrypoints from there.
-    path('',include('web_lfg.urls'))
+    # path('',include('web_lfg.urls'))
 ]
