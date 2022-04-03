@@ -37,7 +37,47 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # new app added
+    'api',
+    # Rest framework included in the project
+    'rest_framework',
+    # Packages used to authenticate users and secure it
+    'rest_framework.authtoken',
+    # Package for log in, log out, and password reset API endpoints
+    'dj_rest_auth',
+    # # django-allauth package to enable a standard registration process
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'dj_rest_auth.registration',
+    # JWT token
+    'rest_framework_simplejwt',
 ]
+
+# Variables used to "send" authentication email at the console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+SITE_ID = 1
+
+# Model to be used as login
+AUTH_USER_MODEL = 'api.CustomUser'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication', # Authentication by User+Password
+        'rest_framework.authentication.SessionAuthentication', # Authentication by Session
+        'rest_framework.authentication.TokenAuthentication', # Authentication by token
+        'dj_rest_auth.jwt_auth.JWTCookieAuthentication', # Enable JWT
+    ],
+}
+
+# JWT Configurations
+REST_USE_JWT = True
+JWT_AUTH_COOKIE = 'web_lfg_auth'
+JWT_AUTH_REFRESH_COOKIE = 'web_lfg_auth-refresh_token'
+###
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
