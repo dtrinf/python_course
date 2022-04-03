@@ -13,7 +13,15 @@ class CustomUserAdmin(UserAdmin):
     add_form = CustomUserCreationForm
     form = CustomUserChangeForm
     model = CustomUser
-    list_display = ['email', 'username',]
+    list_display = ['username', 'email', 'twitter_user']
+    # Required to add the fields to the admin page
+    add_fieldsets = (
+        (None, {
+            'classes': ('wide',),
+            'fields': ('username', 'email', 'twitter_user', 'password1', 'password2')}
+        ),
+    )
+
 
 # Custom user and form registration
 admin.site.register(CustomUser, CustomUserAdmin)

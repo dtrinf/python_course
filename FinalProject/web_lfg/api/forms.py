@@ -7,11 +7,11 @@ from django.contrib.auth.forms import UserCreationForm, UserChangeForm
 class CustomUserCreationForm(UserCreationForm):
     class Meta:
         model = get_user_model() # Get current user model used in the project
-        fields = ('email', 'username',)
+        fields = ('email', 'username', 'twitter_user',)
 
 
 # Custom change form used to update a user
 class CustomUserChangeForm(UserChangeForm):
     class Meta:
         model = get_user_model() # Get current user model used in the project
-        fields = ('email', 'username',)
+        fields = ('email', 'username', 'twitter_user')
