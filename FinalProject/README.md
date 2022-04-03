@@ -20,7 +20,7 @@ Conectarse al container de Docker, y cargar los datos
 ```
 docker exec -it postgres bash
 
-psql -U admin -d admin -a -f /var/lib/postgresql/data/dump/reto12.sql
+psql -U admin -d admin -a -f /var/lib/postgresql/data/dump/web_lfg.sql
 ```
 
 Creamos el usuario Django y le damos privilegios para usar la bbdd importada
@@ -36,7 +36,7 @@ ALTER ROLE djangouser SET client_encoding TO 'utf8';
 ALTER ROLE djangouser SET default_transaction_isolation TO 'read committed';
 ALTER ROLE djangouser SET timezone TO 'UTC';
 
-GRANT ALL PRIVILEGES ON DATABASE reto12 TO djangouser;
+GRANT ALL PRIVILEGES ON DATABASE web_lfg TO djangouser;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO djangouser;
 GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO djangouser;
 

@@ -23,7 +23,7 @@ docker exec -it postgres bash
 ```
 psql -U admin -d admin
 
-CREATE DATABASE web_lfg;
+CREATE DATABASE web_lfg_new;
 
 CREATE USER djangouser WITH ENCRYPTED PASSWORD 'djangopass';
 
@@ -74,21 +74,51 @@ python manage.py runserver
 ### Create new app
 
 ```
-python manage.py startapp api_bookstore
+python manage.py startapp api
 
 vi reto11/settings.py
 
     INSTALLED_APPS = [
         [...]
-        'api_bookstore',
+        'api',
         'rest_framework',
     ]
 
-vi api_bookstore/models.py
+vi api/models.py
+```
+
+
+# Create new CustomUser model
+
+vi api/models.py
+
+```
+class CustomUser
+   pass
+```
+
+vi settings.py
+
+```
+AUTH_USER_MODEL = 'api.CustomUser'
+```
+
 
 python manage.py makemigrations
 
 python manage.py migrate
+
+# Create new form to create/modify user
+
+vi api/forms.py
+
+
+# Register new forms
+
+vi api/admin.py
+
+```
+
 ```
 
 # New model registration in admin
