@@ -15,5 +15,6 @@ urlpatterns = [
     # URL's for dj_rest_auth package Rest Authentication
     path('rest-auth/', include('dj_rest_auth.urls')),
     # URL's for django-allauth package Users registration
-    path('rest-auth/registration/', include('dj_rest_auth.registration.urls')),    
+    path('rest-auth/registration/', include('dj_rest_auth.registration.urls')),
+    path(r'^account/', include('allauth.urls')),
 ]

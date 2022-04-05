@@ -6,9 +6,9 @@ from django.contrib.auth.base_user import BaseUserManager
 from django.utils.translation import gettext_lazy as _
 
 # Create your models here.
-
-class CustomUser(AbstractUser):
-    twitter_user = models.CharField(max_length=50, unique=True, null=True)
+# https://medium.com/@ksarthak4ever/django-custom-user-model-allauth-for-oauth-20c84888c318
+# https://krakensystems.co/blog/2020/custom-users-using-django-rest-framework
+# https://github.com/ksaaskil/django-rbac
     
 
 class CustomUserManager(BaseUserManager):
@@ -44,3 +44,8 @@ class CustomUserManager(BaseUserManager):
             raise ValueError(_('Superuser must have is_active=True.'))
 
         return self.create_user(username, email, twitter_user, password, **extra_fields)
+
+class CustomUser(AbstractUser):
+    twitter_user = models.CharField(max_length=50, unique=True, null=True)
+
+    objects = CustomUserManager()

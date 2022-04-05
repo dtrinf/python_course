@@ -73,6 +73,11 @@ REST_FRAMEWORK = {
     ],
 }
 
+REST_AUTH_SERIALIZERS = {
+    'USER_DETAILS_SERIALIZER': 'api.serializers.CustomUserSerializer',
+}
+
+
 # JWT Configurations
 REST_USE_JWT = True
 JWT_AUTH_COOKIE = 'web_lfg_auth'
