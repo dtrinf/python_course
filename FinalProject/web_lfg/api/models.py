@@ -9,6 +9,8 @@ from django.utils.translation import gettext_lazy as _
 # https://medium.com/@ksarthak4ever/django-custom-user-model-allauth-for-oauth-20c84888c318
 # https://krakensystems.co/blog/2020/custom-users-using-django-rest-framework
 # https://github.com/ksaaskil/django-rbac
+
+# https://learndjango.com/tutorials/django-custom-user-model
     
 
 class CustomUserManager(BaseUserManager):
@@ -28,7 +30,7 @@ class CustomUserManager(BaseUserManager):
         user.save()
         return user
 
-    def create_superuser(self, username, email, password, twitter_user, **extra_fields):
+    def create_superuser(self, username, email, password, twitter_user="", **extra_fields):
         """
         Create and save a SuperUser with the given username and password.
         """
